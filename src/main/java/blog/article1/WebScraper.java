@@ -1,4 +1,4 @@
-package blog;
+package blog.article1;
 
 import java.math.BigDecimal;
 import java.net.URLEncoder;
