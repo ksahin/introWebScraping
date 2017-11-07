@@ -30,7 +30,7 @@ public class WebScraper {
 				for(HtmlElement htmlItem : items){
 					HtmlAnchor itemAnchor = ((HtmlAnchor) htmlItem.getFirstByXPath(".//p[@class='result-info']/a"));
 					HtmlElement spanPrice = ((HtmlElement) htmlItem.getFirstByXPath(".//a/span[@class='result-price']")) ;
-					
+
 					// It is possible that an item doesn't have any price, we set the price to 0.0 in this case
 					String itemPrice = spanPrice == null ? "0.0" : spanPrice.asText() ;
 					
