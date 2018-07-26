@@ -1,5 +1,5 @@
 # Code example from ksah.in blog
-Code example for my blog
+Code example for my blog and my eBook about web scraping: https://www.javawebscrapinghandbook.com/
 
 This repo contains the source code for these blog posts : 
 * [Introduction to web scraping with Java](http://ksah.in/introduction-to-web-scraping-with-java/)
